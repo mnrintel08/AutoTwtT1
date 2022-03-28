@@ -184,7 +184,7 @@ def obtenerIndxD(vodID, nom_vid, streamer, fecha):
 
     for i, duplicado in enumerate(vid_dupl):
         if duplicado['node']['id'] == vodID:
-            return i, contador
+            return (i+1), contador
 
 
 
